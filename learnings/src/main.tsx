@@ -15,6 +15,7 @@ import { createRoot } from 'react-dom/client'
 // import { Counter } from './components/redux/counter'
 // import { Provider } from 'react-redux';
 import { NormalLogin } from './components/fun/login'
+// import Counter from './components/tests/counter'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -36,5 +37,6 @@ createRoot(document.getElementById('root')!).render(
       <Counter />
     </Provider> */}
     <NormalLogin/>
+    {/* <Counter/> */}
   </StrictMode >,
 )
