@@ -1,0 +1,78 @@
+@media screen and (min-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container {
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(160, 247, 218);
+        border-radius: 10px;
+        box-shadow: 2px 4px 4px 1px rgba(0, 0, 1, 0.2);
+    }
+
+    .login-form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* background-color: rgb(236, 233, 228); */
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .input-group label {
+        font-weight: bold;
+    }
+
+    .input-group input {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px;
+        width: 100%;
+        background-color: rgb(20, 234, 163);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: rgb(16, 200, 140);
+    }
+    .link{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .link a{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .errors{
+        text-align:center;
+        color:red;
+    }
+}

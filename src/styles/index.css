@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    width: 100vW;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 237, 241);
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(235, 245, 244);
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.buttonBox{
+    width:50%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+/* .buttonBox2{
+    width:50%;
+    height:100%;
+    background-color:bisque;
+} */
+
+/* @media screen and (min-width: 1025px){
+
+} */
