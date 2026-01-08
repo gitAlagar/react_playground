@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import './styles/index.css'
 // import App from './App.tsx'
-// import { RouterIndex } from './components/router/index.tsx';
-// import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { RouterIndex } from './components/router/index.tsx';
+import { BrowserRouter} from 'react-router-dom';
 // import { CallbackHook } from './components/hooks/usecallback.tsx';
 // import MemoHook from './components/hooks/useMemo'
 // import HocComponent from './components/samples/withHoc';
@@ -14,15 +14,15 @@ import { createRoot } from 'react-dom/client'
 // import store from './components/redux/store'
 // import { Counter } from './components/redux/counter'
 // import { Provider } from 'react-redux';
-import { NormalLogin } from './components/fun/login'
+// import { NormalLogin } from './components/fun/login'
 // import Counter from './components/tests/counter'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <RouterIndex/>
-    </BrowserRouter> */}
+    </BrowserRouter>
     {/* <CallbackHook/> */}
     {/* <MemoHook/> */}
     {/* <HocComponent/> */}
@@ -36,7 +36,7 @@ createRoot(document.getElementById('root')!).render(
     {/* <Provider store={store}>
       <Counter />
     </Provider> */}
-    <NormalLogin/>
+    {/* <NormalLogin/> */}
     {/* <Counter/> */}
   </StrictMode >,
 )

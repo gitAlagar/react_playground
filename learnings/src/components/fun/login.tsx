@@ -6,16 +6,16 @@ export const NormalLogin = () => {
     const skillList = ['react js', 'react native', 'js', 'ts'];
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { value, checked } = e.target;
+        const { value, checked } = e.target;
 
-    if (checked) {
-      // add skill
-      setSkills((prev) => [...prev, value]);
-    } else {
-      // remove skill
-      setSkills((prev) => prev.filter((skill) => skill !== value));
-    }
-  };
+        if (checked) {
+            // add skill
+            setSkills((prev) => [...prev, value]);
+        } else {
+            // remove skill
+            setSkills((prev) => prev.filter((skill) => skill !== value));
+        }
+    };
 
     return (
         <div className='container'>
@@ -35,7 +35,7 @@ export const NormalLogin = () => {
                 ))
             };
             {
-                skills&& skills.map((s)=><p key={s}>{s}</p>)
+                skills && skills.map((s) => <p key={s}>{s}</p>)
             }
         </div>
     )
